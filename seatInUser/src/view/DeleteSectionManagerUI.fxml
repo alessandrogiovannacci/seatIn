@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="328.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DeleteSectionManagerUIController">
+   <children>
+      <Label layoutX="55.0" layoutY="56.0" prefHeight="21.0" prefWidth="74.0" text="Section ID" />
+      <ComboBox fx:id="sectionIdComboBox" layoutX="178.0" layoutY="51.0" prefHeight="31.0" prefWidth="103.0" />
+      <Label fx:id="messagesLabel" layoutX="55.0" layoutY="114.0" prefHeight="44.0" prefWidth="246.0" text="Deleting a section will also delete all subsections/resources contained" textAlignment="CENTER" textFill="#171616" wrapText="true" />
+      <Button layoutX="242.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleOkButtonAction" text="Ok" />
+      <Label fx:id="warningLabel" layoutX="55.0" layoutY="199.0" prefHeight="66.0" prefWidth="226.0" textAlignment="CENTER" textFill="#eb0505" wrapText="true" />
+   </children>
+</AnchorPane>

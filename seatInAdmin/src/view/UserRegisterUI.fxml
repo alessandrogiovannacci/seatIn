@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="523.0" prefWidth="515.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.UserRegisterUIController">
+   <children>
+      <Label layoutX="42.0" layoutY="41.0" prefHeight="24.0" prefWidth="134.0" text="Number" />
+      <Label layoutX="42.0" layoutY="96.0" prefHeight="24.0" prefWidth="134.0" text="Name" />
+      <Label layoutX="42.0" layoutY="150.0" prefHeight="24.0" prefWidth="134.0" text="Surname" />
+      <Label layoutX="42.0" layoutY="205.0" prefHeight="24.0" prefWidth="134.0" text="Role" />
+      <Label layoutX="42.0" layoutY="262.0" prefHeight="24.0" prefWidth="134.0" text="Department" />
+      <Label layoutX="42.0" layoutY="317.0" prefHeight="24.0" prefWidth="134.0" text="Email" />
+      <TextField fx:id="numberTextField" layoutX="199.0" layoutY="38.0" prefHeight="31.0" prefWidth="74.0" />
+      <TextField fx:id="nameTextField" layoutX="199.0" layoutY="93.0" />
+      <TextField fx:id="surnameTextField" layoutX="199.0" layoutY="147.0" />
+      <ComboBox fx:id="roleComboBox" layoutX="199.0" layoutY="202.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="depComboBox" layoutX="199.0" layoutY="259.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="emailTextField" layoutX="199.0" layoutY="314.0" />
+      <Button fx:id="submitButton" layoutX="409.0" layoutY="444.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+      <Label fx:id="messagesLabel" layoutX="42.0" layoutY="378.0" prefHeight="38.0" prefWidth="432.0" textFill="#f50c0c" />
+   </children>
+</AnchorPane>

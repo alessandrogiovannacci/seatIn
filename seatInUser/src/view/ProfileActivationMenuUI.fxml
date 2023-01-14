@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileActivationMenuUIController">
+   <children>
+      <Label layoutX="118.0" prefHeight="73.0" prefWidth="251.0" text="Profile activation Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="62.0" prefHeight="98.0" prefWidth="291.0" text="Your profile has not been activated yet. Please reset your password and insert the activation code you received by email in order to activate it." textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="64.0" layoutY="183.0" prefHeight="35.0" prefWidth="108.0" text="New password" />
+      <Label layoutX="64.0" layoutY="237.0" prefHeight="35.0" prefWidth="108.0" text="Activation code" />
+      <TextField fx:id="activationCodeTextField" layoutX="243.0" layoutY="239.0" />
+      <Button fx:id="submitButton" layoutX="360.0" layoutY="386.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+      <Label fx:id="warningMessagesLabel" layoutX="59.0" layoutY="337.0" prefHeight="31.0" prefWidth="369.0" textFill="#e10f0f" />
+      <PasswordField fx:id="newPasswordField" layoutX="243.0" layoutY="185.0" />
+      <Label layoutX="64.0" layoutY="284.0" prefHeight="35.0" prefWidth="108.0" text="Category" />
+      <ComboBox fx:id="categoryComboBox" layoutX="243.0" layoutY="286.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.FXMLoginUIController">
+   <children>
+      <Label layoutX="125.0" layoutY="14.0" prefHeight="38.0" prefWidth="235.0" text="Welcome to seatIn">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="99.0" prefHeight="31.0" prefWidth="78.0" text="Email" />
+      <TextField fx:id="emailTextField" layoutX="173.0" layoutY="99.0" />
+      <Label layoutX="46.0" layoutY="149.0" prefHeight="31.0" prefWidth="78.0" text="Password" />
+      <Button fx:id="submitButton" layoutX="290.0" layoutY="322.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+      <Button fx:id="forgottenPasswordButton" layoutX="150.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleForgottenPasswordButtonAction" text="Forgotten Password" />
+      <Label fx:id="warningMessagesLabel" layoutX="47.0" layoutY="262.0" prefHeight="48.0" prefWidth="369.0" textFill="#e80d0d" wrapText="true" />
+      <PasswordField fx:id="passwordField" layoutX="173.0" layoutY="149.0" />
+      <Label layoutX="46.0" layoutY="206.0" prefHeight="31.0" prefWidth="78.0" text="Category" />
+      <ComboBox fx:id="categoryComboBox" layoutX="173.0" layoutY="206.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

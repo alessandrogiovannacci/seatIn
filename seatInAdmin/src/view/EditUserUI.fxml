@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.EditUserUIController">
+   <children>
+      <Label layoutX="18.0" layoutY="127.0" prefHeight="28.0" prefWidth="64.0" text="Name" />
+      <Label layoutX="18.0" layoutY="184.0" prefHeight="28.0" prefWidth="97.0" text="Surname" />
+      <TextField fx:id="nameTextField" layoutX="446.0" layoutY="125.0" />
+      <TextField fx:id="surnameTextField" layoutX="446.0" layoutY="182.0" />
+      <Label layoutX="18.0" layoutY="250.0" prefHeight="28.0" prefWidth="116.0" text="Department" />
+      <ComboBox fx:id="depComboBox" layoutX="447.0" layoutY="248.0" prefWidth="150.0" />
+      <Label layoutX="18.0" layoutY="321.0" prefHeight="28.0" prefWidth="116.0" text="Email" />
+      <TextField fx:id="emailTextField" layoutX="446.0" layoutY="318.0" />
+      <Label layoutX="171.0" layoutY="14.0" prefHeight="51.0" prefWidth="347.0" text="Modify one or more user's data and then click on &quot;Done&quot; button, or exit without submitting changes" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="doneButton" layoutX="579.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleDoneButtonAction" text="Done" />
+      <Separator layoutX="361.0" layoutY="84.0" orientation="VERTICAL" prefHeight="283.0" prefWidth="6.0" />
+      <Label layoutX="203.0" layoutY="86.0" prefHeight="21.0" prefWidth="56.0" text="Current " />
+      <Label layoutX="520.0" layoutY="86.0" prefHeight="21.0" prefWidth="39.0" text="New" />
+      <Label fx:id="nameLabel" layoutX="126.0" layoutY="130.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="surnameLabel" layoutX="126.0" layoutY="187.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="departmentLabel" layoutX="126.0" layoutY="253.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="emailLabel" layoutX="126.0" layoutY="324.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="messagesLabel" layoutX="18.0" layoutY="397.0" prefHeight="28.0" prefWidth="413.0" textFill="#e40b0b" />
+   </children>
+</AnchorPane>

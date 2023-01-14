@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="271.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CourseSelectorUIController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="69.0" layoutY="14.0" prefHeight="46.0" prefWidth="237.0" />
+      <Label layoutX="76.0" layoutY="79.0" text="Course ID" />
+      <ComboBox fx:id="courseIdComboBox" layoutX="188.0" layoutY="74.0" prefHeight="31.0" prefWidth="95.0" />
+      <Button fx:id="goButton" layoutX="168.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleGoButtonAction" text="Go" />
+      <Label fx:id="messagesLabel" layoutX="69.0" layoutY="125.0" prefHeight="21.0" prefWidth="243.0" textFill="#ee0808" />
+   </children>
+</AnchorPane>

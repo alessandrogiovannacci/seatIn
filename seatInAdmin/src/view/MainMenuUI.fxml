@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuUIController">
+   <children>
+      <Button layoutX="302.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleInsertUserButtonAction" prefHeight="31.0" prefWidth="113.0" text="Insert User" />
+      <Button layoutX="203.0" layoutY="173.0" mnemonicParsing="false" onAction="#handleEditButtonAction" text="Edit User/Student" />
+      <Label layoutX="161.0" layoutY="14.0" prefHeight="39.0" prefWidth="197.0" text="seatIn Main Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="115.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleInsertStudentButtonAction" text="Insert Student" />
+      <Button layoutX="105.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleAddCourseButtonAction" prefHeight="31.0" prefWidth="113.0" text="Add Course" />
+      <Button layoutX="302.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleAssignCoursesButtonAction" prefHeight="82.0" prefWidth="113.0" text="Assign courses to student/user" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="203.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleSendEmailButtonAction" prefHeight="31.0" prefWidth="137.0" text="Send email" />
+      <Button layoutX="203.0" layoutY="447.0" mnemonicParsing="false" onAction="#handleAnalyzePlatformStatisticsButtonAction" prefHeight="62.0" prefWidth="137.0" text="Analyze platform statistics" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

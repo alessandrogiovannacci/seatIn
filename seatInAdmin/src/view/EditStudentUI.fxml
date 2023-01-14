@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="891.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="view.EditStudentUIController">
+    <children>
+      <Label layoutX="18.0" layoutY="127.0" prefHeight="28.0" prefWidth="64.0" text="Name" />
+      <Label layoutX="18.0" layoutY="184.0" prefHeight="28.0" prefWidth="97.0" text="Surname" />
+      <TextField fx:id="nameTextField" layoutX="570.0" layoutY="129.0" />
+      <TextField fx:id="surnameTextField" layoutX="570.0" layoutY="186.0" />
+      <Label layoutX="18.0" layoutY="250.0" prefHeight="28.0" prefWidth="116.0" text="Degree course" />
+      <ComboBox fx:id="degreeCourseComboBox" layoutX="570.0" layoutY="251.0" prefWidth="150.0" />
+      <Label layoutX="18.0" layoutY="388.0" prefHeight="28.0" prefWidth="116.0" text="Email" />
+      <TextField fx:id="emailTextField" layoutX="570.0" layoutY="387.0" />
+      <Label layoutX="259.0" layoutY="14.0" prefHeight="51.0" prefWidth="374.0" text="Modify one or more student's data and then click on &quot;Done&quot; button, or exit without submitting changes" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="doneButton" layoutX="701.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleDoneButtonAction" text="Done" />
+      <Separator layoutX="475.0" layoutY="95.0" orientation="VERTICAL" prefHeight="338.0" prefWidth="1.0" />
+      <Label layoutX="252.0" layoutY="85.0" prefHeight="21.0" prefWidth="56.0" text="Current " />
+      <Label layoutX="664.0" layoutY="85.0" prefHeight="21.0" prefWidth="39.0" text="New" />
+      <Label fx:id="nameLabel" layoutX="171.0" layoutY="131.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="surnameLabel" layoutX="171.0" layoutY="188.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="degreeCourseLabel" layoutX="171.0" layoutY="254.0" prefHeight="21.0" prefWidth="218.0" />
+      <Label fx:id="emailLabel" layoutX="171.0" layoutY="392.0" prefHeight="21.0" prefWidth="259.0" />
+      <Label fx:id="messagesLabel" layoutX="18.0" layoutY="432.0" prefHeight="28.0" prefWidth="413.0" textFill="#e40b0b" />
+      <Label layoutX="18.0" layoutY="321.0" prefHeight="28.0" prefWidth="116.0" text="Career state" />
+      <ComboBox fx:id="careerStateComboBox" layoutX="570.0" layoutY="322.0" prefHeight="31.0" prefWidth="89.0" />
+      <Label fx:id="careerStateLabel" layoutX="175.0" layoutY="325.0" prefHeight="21.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>

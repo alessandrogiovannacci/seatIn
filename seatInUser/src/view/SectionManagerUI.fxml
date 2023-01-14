@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="upsectionComboBox" prefHeight="690.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SectionManagerUIController">
+   <children>
+      <Label layoutX="37.0" layoutY="32.0" prefHeight="27.0" prefWidth="70.0" text="ID *" />
+      <Label layoutX="37.0" layoutY="88.0" prefHeight="27.0" prefWidth="70.0" text="Name *" />
+      <Label layoutX="37.0" layoutY="159.0" prefHeight="27.0" prefWidth="85.0" text="Description" />
+      <Label layoutX="37.0" layoutY="265.0" prefHeight="27.0" prefWidth="85.0" text="Visibility" />
+      <Label layoutX="32.0" layoutY="513.0" prefHeight="27.0" prefWidth="150.0" text="fields with * required" />
+      <TextField fx:id="idTextField" layoutX="197.0" layoutY="30.0" prefHeight="31.0" prefWidth="85.0" />
+      <TextField fx:id="nameTextField" layoutX="197.0" layoutY="86.0" prefHeight="31.0" prefWidth="172.0" />
+      <TextArea fx:id="descriptionTextArea" layoutX="197.0" layoutY="159.0" prefHeight="79.0" prefWidth="200.0" />
+      <ComboBox fx:id="visibilityComboBox" layoutX="197.0" layoutY="263.0" prefWidth="150.0" />
+      <CheckBox fx:id="subsectionCheckBox" layoutX="37.0" layoutY="365.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="363.0" text="Make this section subsection of another section" />
+      <Label fx:id="upsectionLabel" layoutX="37.0" layoutY="403.0" prefHeight="27.0" prefWidth="85.0" text="Upsection" />
+      <Button fx:id="okButton" layoutX="358.0" layoutY="482.0" mnemonicParsing="false" onAction="#handleOkButtonAction" text="OK" />
+      <Label fx:id="messagesLabel" layoutX="36.0" layoutY="439.0" prefHeight="21.0" prefWidth="363.0" textFill="#ee0808" />
+      <Separator layoutX="34.0" layoutY="330.0" prefHeight="0.0" prefWidth="363.0" />
+      <ComboBox fx:id="upSectionComboBox" layoutX="197.0" layoutY="401.0" prefWidth="150.0" />
+      <Separator layoutX="37.0" layoutY="565.0" prefHeight="0.0" prefWidth="363.0" />
+      <Button layoutX="145.0" layoutY="589.0" mnemonicParsing="false" onAction="#handleAddResourceButtonAction" prefHeight="54.0" prefWidth="141.0" text="Add resource to this section" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

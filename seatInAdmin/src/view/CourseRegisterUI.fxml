@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CourseRegisterUIController">
+   <children>
+      <Label layoutX="46.0" layoutY="42.0" prefHeight="30.0" prefWidth="58.0" text="ID " />
+      <Label layoutX="46.0" layoutY="101.0" prefHeight="30.0" prefWidth="58.0" text="Name " />
+      <Label layoutX="46.0" layoutY="166.0" prefHeight="30.0" prefWidth="112.0" text="Activation year " />
+      <Label layoutX="46.0" layoutY="231.0" prefHeight="30.0" prefWidth="112.0" text="Degree course " />
+      <Label layoutX="46.0" layoutY="298.0" prefHeight="30.0" prefWidth="112.0" text="Description" />
+      <TextField fx:id="idTextField" layoutX="221.0" layoutY="42.0" />
+      <TextField fx:id="activationYearTextField" layoutX="221.0" layoutY="166.0" prefHeight="31.0" prefWidth="79.0" />
+      <ComboBox fx:id="dcComboBox" layoutX="221.0" layoutY="231.0" prefHeight="31.0" prefWidth="187.0" />
+      <Label fx:id="messagesLabel" layoutX="46.0" layoutY="423.0" prefHeight="21.0" prefWidth="418.0" textFill="#e80a0a" />
+      <Button fx:id="submitButton" layoutX="395.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+      <TextArea fx:id="descriptionTextArea" layoutX="221.0" layoutY="298.0" prefHeight="132.0" prefWidth="200.0" wrapText="true" />
+      <ComboBox fx:id="nameComboBox" layoutX="221.0" layoutY="101.0" prefHeight="31.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

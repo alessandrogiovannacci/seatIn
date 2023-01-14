@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="degreeCourseComboBox" prefHeight="507.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.StudentRegisterUIController">
+   <children>
+      <Label layoutX="34.0" layoutY="40.0" prefHeight="24.0" prefWidth="134.0" text="Number" />
+      <Label layoutX="34.0" layoutY="89.0" prefHeight="24.0" prefWidth="134.0" text="Name" />
+      <Label layoutX="34.0" layoutY="140.0" prefHeight="24.0" prefWidth="134.0" text="Surname" />
+      <Label layoutX="34.0" layoutY="190.0" prefHeight="24.0" prefWidth="134.0" text="Degree course" />
+      <Label layoutX="34.0" layoutY="242.0" prefHeight="24.0" prefWidth="134.0" text="Career state" />
+      <Label layoutX="34.0" layoutY="292.0" prefHeight="24.0" prefWidth="134.0" text="Email" />
+      <Label layoutX="34.0" layoutY="346.0" prefHeight="24.0" prefWidth="134.0" text="Registration year" />
+      <TextField fx:id="numberTextField" layoutX="188.0" layoutY="37.0" prefHeight="31.0" prefWidth="74.0" />
+      <TextField fx:id="nameTextField" layoutX="188.0" layoutY="86.0" />
+      <TextField fx:id="surnameTextField" layoutX="188.0" layoutY="137.0" />
+      <TextField fx:id="emailTextField" layoutX="188.0" layoutY="289.0" />
+      <TextField fx:id="registrationYearTextField" layoutX="188.0" layoutY="343.0" prefHeight="31.0" prefWidth="54.0" />
+      <Button fx:id="submitButton" layoutX="375.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+      <ComboBox fx:id="dcComboBox" layoutX="187.0" layoutY="187.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="careerStateComboBox" layoutX="187.0" layoutY="239.0" prefHeight="31.0" prefWidth="67.0" />
+      <Label fx:id="messagesLabel" layoutX="37.0" layoutY="387.0" prefHeight="31.0" prefWidth="412.0" textFill="#eb0808" />
+   </children>
+</AnchorPane>
